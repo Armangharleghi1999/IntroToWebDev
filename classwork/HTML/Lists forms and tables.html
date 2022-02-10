@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Lists, Forms, and Tables</title>
+    </head>
+    <body>
+        <h1>HTML Lists In Action</h1>
+        <h2>Ordered Lists</h2>
+        <ol type="I">
+            <li>First Item</li>
+            <li>Second Item</li>
+            <li>Third Item</li>
+        </ol>
+        <h2>Unordered Lists</h2>
+        <ul style="list-style-type: armenian;">
+            <li>Milk</li>
+            <li>Bread</li>
+            <li>Cereal</li>
+        </ul>
+        <h2>Definition Lists</h2>
+        <d1>
+            <dt>One</dt>
+            <dd>The first positive number in our counting system.</dd>
+
+            <dt>Two</dt>
+            <dd>The first whole number greater than one.</dd>
+
+            <dt>Cheese</dt>
+            <dd>The meaning to life, the universe, and everything.</dd>
+        </d1>
+        <hr />
+        
+        <h1>Forms</h1>
+        <form action="fakePage.html" method="post">
+           Text input: <input type="text" name="myTextInput" required/><br />
+           Radio Buttons:<br />
+           <input type="radio" name="answer" value="YES" checked />Yes<br />
+           <input type="radio" name="answer" value="No" />No<br />
+           <input type="radio" name="answer" value="Maybe" />Maybe<br />
+           Password input: <input type="password" name="password" /><br />
+           Checkbox:<br />
+           <input type="checkbox" name="MyChoices" value="Soup" checked>Soup<br>
+           <input type="checkbox" name="MyChoices" value="Salad" checked>Salad<br />        
+           <input type="checkbox" name="MyChoices" value="Fries" checked>Fries<br />        
+           <input type="checkbox" name="MyChoices" value="Dessert" checked>Dessert<br />        
+            Select Tags: <select name="Phones">
+                <option value="iPhone">Mac OS</option>
+                <option value="Galaxy">Windows</option>
+                <option value="Nexus">Linux</option>
+            </select><br />
+            <textarea name="briefDescription"></textarea><br />
+            Submit or reset: <input type="submit"/><input type="reset"/><br />
+
+
+
+
+
+
+        </form>
+        <hr />
+        <h1>Tables</h1>
+        <table border="1" width="90%">
+            <caption>Numbers</caption>
+            <tr bgcolor="palegreen">
+                <th></th>
+                <th>1</th> 
+                <th>2</th> 
+                <th>3</th>
+            </tr>
+            <tr>
+                <th rowspan="3">Friends:</th>
+                <th>4</th> 
+                <th>5</th> 
+                <th>6</th>
+            </tr>
+            <tr>
+                <th>7</th> 
+                <th>8</th> 
+                <th>9</th>
+            </tr>
+            <tr>
+                <th colspan="2">Jeff</th>
+                <th>Bezos</th>
+            </tr>
+
+        </table>
+
+    </body>
+</html>
